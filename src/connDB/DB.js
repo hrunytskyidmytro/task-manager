@@ -1,13 +1,13 @@
-const mongoose = require('mongoose')
-const {connectToMongoDB} = require('../config/index')
+const mongoose = require('mongoose');
+const {connectToMongoDB} = require('../config/index');
 
 const connDB = async() => {
     try {
-        await mongoose.connect(connectToMongoDB)
+        await mongoose.connect(connectToMongoDB);
     }
     catch (e) {
-        throw new Error(e)
+        throw new Error(e);
     }
 }
 
-module.exports = connDB
+module.exports = connDB;
