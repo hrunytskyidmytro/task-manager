@@ -1,6 +1,6 @@
 # Task Manager
 
-Node js. Проект Task Manager
+Node.js, Express.js, Mongoose, MongoDB.
 
 ## Getting started
 
