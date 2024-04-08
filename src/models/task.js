@@ -1,6 +1,6 @@
-const mongoose = require('mongoose')
-const validator = require('validator')
-const bcrypt = require('bcrypt')
+const mongoose = require('mongoose');
+const validator = require('validator');
+const bcrypt = require('bcrypt');
 
 const TaskSchema = mongoose.Schema({
     description:
@@ -22,6 +22,6 @@ const TaskSchema = mongoose.Schema({
         }
 })
 
-const Task = mongoose.model('Task', TaskSchema)
+const Task = mongoose.model('Task', TaskSchema);
 
-module.exports = Task
+module.exports = Task;
